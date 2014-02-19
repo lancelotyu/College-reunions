@@ -389,7 +389,7 @@
                     <div class="carousel-caption">
                         <h1>入学那点事</h1>
                         <p class="lead">公元二零零四年九月二十一日，我们从全国各地齐聚南京，开启了我们四年的美好求学生涯！</p>
-                         <!-- <a class="btn btn-large btn-primary" href="#">Learn more</a> -->
+                        <a class="btn btn-large btn-primary" href="#">Go</a>
                     </div>
                 </div>
             </div>
@@ -398,8 +398,8 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>求学四春秋</h1>
-                        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <a class="btn btn-large btn-primary" href="#">Learn more</a>
+                        <p class="lead">四年中的点点滴滴，我们都铭记心间</p>
+                        <a class="btn btn-large btn-success" href="#">Go</a>
                     </div>
                 </div>
             </div>
@@ -408,8 +408,8 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>毕业各纷飞</h1>
-                        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+                        <p class="lead">离别总是伤心的，但也是一个新的开始</p>
+                        <a class="btn btn-large btn-warning" href="#">Go</a>
                     </div>
                 </div>
             </div>
@@ -418,8 +418,8 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>十年再聚首</h1>
-                        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+                        <p class="lead">回首过往，缅怀青春，让我们相聚三月南京~</p>
+                        <a class="btn btn-large btn-info" href="#">Go</a>
                     </div>
                 </div>
             </div>
@@ -526,7 +526,10 @@
         !function ($) {
             $(function () {
                 // carousel demo
-                $('#myCarousel').carousel()
+                $('#myCarousel').carousel(
+				{
+					interval: 4000
+				})
             })
         }(window.jQuery)
     </script>
